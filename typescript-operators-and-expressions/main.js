@@ -60,7 +60,8 @@ console.log('the typeof isSparta: ', typeof isSparta);
 // 7.
 // Declare a variable named motto and assign it to the value stored in the variable fullName
 // and use addition assignment to concatenate the string ' is the GOAT' onto motto and store the result back in motto
-const motto = fullName + ' is the GOAT';
+let motto = fullName;
+motto += ' is the GOAT';
 // log the value of motto to the console
 console.log('the value of motto: ', motto);
 // log the typeof motto to the console
