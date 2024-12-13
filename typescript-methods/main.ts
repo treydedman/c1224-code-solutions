@@ -3,8 +3,6 @@
 // Create a new array containing four strings that are the names of your favorite superheroes and assign it to a new variable named heroes
 const heroes = ['captain america', 'superman', 'thor', 'iron man'];
 
-// console.log('value of heroes array: ', heroes);
-
 // // 2.
 // // Call the random() method of the Math object and assign its return value to a new variable named randomNumber
 let randomNumber = Math.random();
