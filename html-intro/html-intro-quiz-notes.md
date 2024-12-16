@@ -14,7 +14,7 @@ body
 
 - Where do the `<head>` and `<body>` tags go in a valid HTML document?
 
-after the document type declaration (<!DOCTYPE html>)
+in the html tag
 
 - What is the purpose of a `<!DOCTYPE>` declaration?
 
