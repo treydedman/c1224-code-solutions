@@ -1,0 +1,22 @@
+button {
+  padding: 14px 30px;
+}
+
+/* intentionally playing with padding to make the button larger on hover
+(yes, its annoying and would probably never do it on a irl project  */
+button.my-button:hover {
+  padding: 16px 32px;
+  background-color: limegreen;
+  border-radius: 6px;
+  border-color: blue;
+  cursor: pointer;
+}
+
+table.striped thead {
+  color: white;
+  background-color: black;
+}
+
+table.striped tbody > :nth-child(odd) {
+  background-color: lightgray;
+}
