@@ -6,7 +6,12 @@ Answer the following questions in the provided markdown file before turning in t
 
 - What is a pseudo-class?
 
+A pseudo-class is used to define a special state of an element
+
 - What are CSS pseudo-classes useful for?
+
+when added to a selector, it specifies a special state of the selected element(s)
+especially useful to highlight the user's position
 
 ## Notes
 
