@@ -6,7 +6,7 @@ Answer the following questions in the provided markdown file before turning in t
 
 - Why do two div elements "vertically stack" on one another by default?
 
-because they are block elements and occupy the full width of the container
+because they are block elements and occupy the full width of the page
 
 - What is the default `flex-direction` of an element with `display: flex`?
 

@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 800px;
   margin-left: auto;
@@ -16,10 +20,6 @@
 
 img {
   width: 100%;
-}
-
-p {
-  flex-basis: 100%;
 }
 
 .column-two-thirds {
