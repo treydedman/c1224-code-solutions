@@ -14,8 +14,7 @@ row - horizontal
 
 - What are the three primary components of a page layout? (Which helper classes do you need?)
 
-in general: header, body, footer
-helper classes: positioning, spacing, content wrapping
+container, row, column
 
 - What is the minimum number of **columns** that you should put in a **row**?
 
