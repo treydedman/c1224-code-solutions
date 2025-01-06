@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+/*
+  font-family: BrandonGrotesque-Medium;
+  src: local('BrandonGrotesque-Medium'),
+    url('BrandonGrotesque-Medium.woff2') format('woff2');
+} */
+
+div.form-container {
+  width: 420px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #eb5e58;
+  text-align: center;
+  font-family: 'Brandon Grotesque', sans-serif;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  border: 2px solid lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Atlas Grotesk', sans-serif;
+  color: lightgrey;
+}
+
+select {
+  width: 100%;
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border-color: lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button {
+  color: white;
+  background-color: #eb5e58;
+  border-width: 0;
+  border-radius: 20px;
+  padding: 8px 18px;
+  margin-left: 330px;
+}
+
+label {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-size: 75%;
+  font-weight: bold;
+}
