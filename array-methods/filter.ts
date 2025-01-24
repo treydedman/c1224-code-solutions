@@ -17,3 +17,6 @@ console.log('evenNumbers:', evenNumbers);
 
 const noDd = names.filter((name) => !name.includes('D') && !name.includes('d'));
 console.log('noDd:', noDd);
+
+console.log(noDd);
+
