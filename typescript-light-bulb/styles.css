@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container.light-off {
+  background-color: #1b1b1b;
+}
+
+.container.light-on {
+  /* background-color: #ffd877; */
+
+  /* just wanted to learn and play with a radial gradient */
+  background: radial-gradient(circle at 50% 50%, #fcf2c9, #f9cb57);
+}
+
+.light-bulb {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #434343;
+  box-shadow: 2px 2px 2px black;
+}
+
+.light-bulb.off {
+  background-color: #252525;
+  border: 3px solid #303030;
+  box-shadow: 2px 2px 2px black;
+}
+
+.light-bulb.on {
+  background-color: #fcf6e9;
+  border: 3px solid #fbfaf6;
+  box-shadow: 2px 2px 2px #f9d381;
+}
